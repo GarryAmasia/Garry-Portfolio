@@ -13,6 +13,7 @@ i {
 .menu ul li a:hover {
   color: tomato;
   /* font-size: 20px; */
+  text-shadow: 1px 1px 1px goldenrod;
 }
 
 .menu ul li a {
@@ -64,9 +65,10 @@ a {
   /* background-size: 100%; */
 }
 
-.info {
+/* .info {
+  display: flex;
   flex: 1;
-}
+} */
 
 .profile-img {
   display: flex;
@@ -74,20 +76,27 @@ a {
   justify-content: flex-end;
 }
 
-/* .skill {
-  background: tomato;
-} */
-
 .skill-title {
   font-family: "Rampart One", serif;
   font-size: 2rem;
   text-align: center;
   background: tomato;
 }
-.skills-list {
-  font-size: 2.5rem;
-  font-family: "Padauk", serif;
+
+.project-title {
+  font-family: "Rampart One", serif;
+  font-size: 2rem;
+  text-align: center;
+  background: rgb(246, 255, 71);
 }
+
+.about-me-title {
+  font-family: "Rampart One", serif;
+  font-size: 2rem;
+  text-align: center;
+  background: rgb(71, 169, 255);
+}
+
 /* ==================================icon color======================================== */
 .fa-html5 {
   color: red;
@@ -116,10 +125,73 @@ a {
 /* ==================================icon color======================================== */
 
 .skills-list {
+  font-size: 2.5rem;
+  font-family: "Padauk", serif;
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
+  align-items: center;
   flex-wrap: wrap;
   padding: 50px;
   margin: 50px;
+}
+.project-1 {
+  padding-left: 180px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  font-family: "Padauk", serif;
+}
+
+.project-2 {
+  padding-left: 180px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  font-family: "Padauk", serif;
+}
+
+.project-3 {
+  padding-left: 180px;
+  padding-right: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  font-family: "Padauk", serif;
+}
+
+.pic img {
+  border-radius: 3%;
+  box-shadow: 2px 4px;
+}
+
+.about-me-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Padauk", serif;
+  gap: 10px;
+}
+
+.first {
+  text-align: center;
+  width: 110px;
+  background-color: rgb(185, 255, 188);
+  border-radius: 5px;
+}
+
+.second {
+  text-align: center;
+  width: 280px;
+  background-color: rgb(230, 222, 222);
+  border-radius: 5px;
+}
+
+.third .signature {
+  font-family: "Allison", serif;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
 }
